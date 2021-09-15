@@ -1,0 +1,17 @@
+axon:
+  axonserver:
+    servers: localhost
+logging:
+  level:
+    com:
+      example:
+        detgiftcarddemo: trace
+    io:
+      axoniq:
+        demo: debug
+spring:
+  application:
+    name: gift-card-${random.int[1,100000000]}
+
+server:
+  port: 8080
